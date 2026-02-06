@@ -1,56 +1,81 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Hanlong Wan"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+Hi! I’m **Hanlong Wan**, Yanghua Professor at **Southwest Jiaotong University (China)**. I maintain this site as a hub for my research, publications, and professional activities.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+- **Email:** <wanhanlong@swjtu.edu.cn>
+- **LinkedIn:** <https://www.linkedin.com/in/hanlong-wan-780762128>
+- **Google Scholar:** <https://scholar.google.com/citations?user=sOIzghUAAAAJ&hl=zh-CN>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## About Me
+My research focuses on **building systems and equipment R&D**, spanning **HVAC systems**, **heat pumps**, and **building energy modeling and simulation**, with growing interests in **thermoelectric systems** and **AI-assisted modeling**. I develop intelligent, scalable solutions for energy systems by bridging physical modeling with data-driven methods, including **machine learning**, **deep learning**, and **Gen-AI** techniques.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Current Role
+- **Position:** Yanghua Professor
+- **Affiliation:** Southwest Jiaotong University
+- **Location:** China
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## Previous Experience
+- **Member**, Pacific Northwest National Laboratory (PNNL), Oct 2023 – 2024  
+  Focused on building systems and equipment R&D, with emphasis on Gen-AI for the built environment. Expertise includes building energy modeling and simulation, building equipment analysis, and urban-scale energy simulation. Applied ML, deep learning, and Gen-AI methods (model distillation, chain-of-thought prompting, and model context protocol) to develop scalable solutions for energy systems.
+- **Postdoctoral Researcher / Research Engineer**, Oak Ridge National Laboratory (ORNL)
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## Research Interests
+- Heat pumps and variable refrigerant flow (VRF) systems
+- Refrigerants and life-cycle climate performance (LCCP)
+- Thermoelectric heat pump systems and component modeling
+- Building energy modeling and data-driven methods
+- AI/ML applications in building energy systems
+- Gen-AI for the built environment
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## Education
+- **Ph.D.**, University of Maryland, College Park (2017–2021)
+- **B.S.**, Tsinghua University (2012–2016)
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Honors & Awards
+- **EED Early Career Researcher Award (2024)**
 
-**Markdown generator**
+## Publications (Selected)
+- XIANG, Jianbang; MO, Jinhan; **WAN, Hanlong**; ZHANG, Yinping; LI, Mu. “Dynamic preparation of multi-component volatile organic compounds via microsyringe pump.” *Indoor Air* (2014), p.200.
+- Wan, Hanlong; Cao, Tao; Hwang, Yunho; Oh, Saikee. “An electronic expansion valve modeling framework development using artificial neural network: A case study on VRF systems.” *International Journal of Refrigeration* 107 (2019) 114–127.
+- Wan, Hanlong; Cao, Tao; Hwang, Yunho; Oh, Saikee. “A review of recent advancements of variable refrigerant flow air-conditioning systems.” *Applied Thermal Engineering* 169 (2020) 114893.
+- Wan, Hanlong; Hwang, Yunho; Oh, Saikee. “A Review of Electronic Expansion Valve Correlations for Air-conditioning and Heat Pump Systems.” (2018).
+- Wan, Hanlong; Cao, Tao; Hwang, Yunho; Chang, Se-Dong; Yoon, Young-Jin. “Machine-learning-based compressor models: A case study for variable refrigerant flow systems.” *International Journal of Refrigeration* 123 (2021) 23–33.
+- Cao, Tao; Wan, Hanlong; Hwang, Yunho. “Natural Refrigerants for Residential Air-Conditioning Systems: Component Research Review and Novel System Research.” (2020).
+- Wan, Hanlong; Cao, Tao; Hwang, Yunho; Radermacher, Reinhard; Chin, Simon. “Comprehensive investigations on Life Cycle Climate Performance of unitary air-conditioners.” *International Journal of Refrigeration* 129 (2021) 332–341.
+- Wan, Hanlong; Cao, Tao; Hwang, Yunho; Radermacher, Reinhard; Andersen, Stephen Oliver; Chin, Simon. “A comprehensive review of life cycle climate performance (LCCP) for air conditioning systems.” *International Journal of Refrigeration* 130 (2021) 187–198.
+- Wan, Hanlong; Cao, Tao; Hwang, Yunho; Oh, Saikee. “Development of dynamic modeling framework using convolution neuron network for variable refrigerant flow systems.” (2021).
+- Wan, Hanlong. “Next Generation Heat Pump System Evaluation Methodologies.” PhD thesis, University of Maryland, College Park (2021).
+- Li, Zhenning; Yana Motta, Samuel Fortunato; Shen, Bo; Fricke, Brian; Wan, Hanlong. “Critical Analysis of Replacements for R410A in Heat Pump Applications.” (2022).
+- Wan, Hanlong; Gluesenkamp, Kyle R.; Shen, Bo; Li, Zhenning; Patel, Viral K.; Kumar, Navin. “A thermodynamic model of integrated liquid-to-liquid thermoelectric heat pump systems.” *International Journal of Refrigeration* 150 (2023) 338–348.
+- Wan, Hanlong; Hwang, Yunho; Radermacher, Reinhard. “Variable Refrigerant Flow (VRF) System Field Test and Data Analysis Methodologies.” In *Variable Refrigerant Flow Systems: Advances and Applications of VRF* (2023), pp.223–245.
+- Li, Zhenning; Yana Motta, Samuel; Shen, Bo; Wan, Hanlong. “Optimization of a Residential Air Source Heat Pump using Refrigerants with GWP < 150 for Improved Performance and Reduced Emission.” ORNL Technical Report (2023).
+- Wan, Hanlong; Shen, Bo; Gluesenkamp, Kyle; Li, Zhenning. “Modelling and Simulation of a Thermoelectric Heat Pump with Micro-Channel Heat Transfer.” ORNL Technical Report (2023).
+- Wan, Hanlong; Hwang, Yunho. “A review of recent residential heat pump systems and applications in cold climates.” (2023).
+- Shen, Bo; Gluesenkamp, Kyle; Wan, Hanlong. “Integration of Thermoelectric Modules to Vapor Compression Systems.” (2022).
+- Shen, Bo; Li, Zhenning; Wan, Hanlong; Gluesenkamp, Kyle; Fricke, Brian. “A Propane Hydronic Heat Pump with Energy Storage.” ORNL Technical Report (2023).
+- Li, Zhenning; Shen, Bo; Yana Motta, Samuel; Wan, Hanlong; Gluesenkamp, Kyle; Fricke, Brian. “Heat Exchangers Circuitry Optimization using Low-GWP Refrigerants in Reversible Heat Pump Applications.” ORNL Technical Report (2023).
+- Li, Zhenning; Shen, Bo; Wan, Hanlong; Fricke, Brian. “Heat exchanger circuitry optimization using an enhanced integer permutation-based genetic algorithm in low-GWP reversible heat pump applications.” *Applied Thermal Engineering* 239 (2024) 122111.
+- Hu, Yifeng; Shen, Bo; Wan, Hanlong; Gluesenkamp, Kyle R.; Krishnamoorthy, Sreenidhi; Shirey, Don. “Heating performance of a vapor compression heat pump cascaded with a thermoelectric heat pump.” *Applied Thermal Engineering* 249 (2024) 123397.
+- Wan, Hanlong; Cao, Tao; Hwang, Yunho; Chang, Se-Dong. “Performance comparison of three refrigerants in a novel unitary air conditioning system.” *14th IIR Gustav-Lorentzen Conference on Natural Fluids* (2020) 482–487.
+- Wan, Hanlong; Shen, Bo; Li, Zhenning. “Parameter extraction approaches for compact modeling of thermoelectric modules.” *International Journal of Heat and Mass Transfer* 225 (2024) 125366.
+- Wan, Hanlong; Zhang, Jian. “Navigating the use of direct current in residential settings: Merits and obstacles.” *Journal of Building Engineering* 97 (2024) 110828.
+- WAN, Hanlong; HWANG, Yunho; ANDERSEN, Stephen Oliver. “On-site Room Air Conditioners Replacement Test with Limited Data during COVID-19 Regulation Periods.” *26th IIR International Congress of Refrigeration* (2023).
+- Wan, Hanlong; Shen, Bo; Li, Zhenning; Hwang, Yunho. “A hybrid method to evaluate the life cycle climate performance of heat pumps.” ORNL Technical Report (2023).
+- Wan, Hanlong; Zhang, Jian; Chen, Yan; Xu, Weili; Feng, Fan. “Exploring Gen-AI applications in building research and industry: A review.” *Building Simulation* (2025) 1–23.
+- Wan, Hanlong; Shen, Bo; Li, Zhenning. “The Potential of Thermoelectric Heat Pumps in Cold Climate Buildings.” (2023).
+- Wan, Hanlong; Zhang, Jian; Hwang, Yunho. “Enhancing building resilience in cold climates: Integrating heat pump technologies with renewable energy.” *Energy Research & Social Science* 127 (2025) 104168.
+- Wan, Hanlong; Lu, Xing; Chen, Yan; Devaprasad, Karthik; Hinkle, Laura. “Automating Modelica Module Generation Using Large Language Models: A Case Study on Building Control Description Language.” *arXiv* (2025).
+- Xu, Weili; Wan, Hanlong; Goel, Supriya; Antonopoulos, Chrissi A. “Development of a dynamic multi-agent network for building energy modeling: A case study towards scalable and autonomous energy modeling.” *Energy and Buildings* (2025) 116712.
+- Wan, Hanlong; Xu, Weili; Rosenberg, Michael; Zhang, Jian; Siddika, Aysha. “Automatic Building Code Review: A Case Study.” *arXiv* (2025).
+- Wan, Hanlong; Meyer, Ryan. “A machine learning method of modern urban building energy modeling: a case study of Chicago.” *Sustainable Cities and Society* (2025) 106886.
+- Wan, Hanlong; Kumar, Navin; Gluesenkamp, Kyle R.; Rendall, Joseph; Qiao, Yiyuan; AbuHeiba, Ahmad; Turnaoglua, Tugba; Gehl, Anthony; Jang, Ken; Vaidhyanathan, Raveendran. “Thermoelectric Heating and Cooling—Integrated Dishwasher with Thermal Energy Storage.” *SSRN* 5759320.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Contact
+If you’d like to collaborate or discuss my work, please reach out via email or LinkedIn.
